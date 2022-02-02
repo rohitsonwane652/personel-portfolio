@@ -1,0 +1,19 @@
+.profile-me{
+    height: 300px;
+    border-radius: 50%;
+}
+
+.icon-logo-container{
+    background-color: white;
+    display: block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px black;
+    padding:5px;
+}
+
+
+.about-me{
+    font-size: 20px;
+}
