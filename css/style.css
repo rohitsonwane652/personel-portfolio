@@ -17,3 +17,13 @@
 .about-me{
     font-size: 20px;
 }
+
+
+.project-container{
+    box-shadow: 0px 0px 10px black;
+    border-radius: 7px;
+}
+
+.project-img{
+    height: 200px;
+}
