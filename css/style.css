@@ -9,10 +9,12 @@ a{
 }
 a:hover{
     cursor: pointer;
+    color: antiquewhite;
 }
 .profile-me{
     height: 300px;
     border-radius: 50%;
+    outline: none;
 }
 
 .icon-logo-container{
