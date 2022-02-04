@@ -1,6 +1,11 @@
+p{
+    margin: 0;
+}
+
 .profile-me{
     height: 300px;
     border-radius: 50%;
+    outline: 1px solid black ;
 }
 
 .icon-logo-container{
@@ -26,4 +31,14 @@
 
 .project-img{
     height: 200px;
+}
+
+#project-3{
+    display: none;
+}
+#show-more-btn{
+    display: block;
+}
+#show-less-btn{
+    display: none;
 }

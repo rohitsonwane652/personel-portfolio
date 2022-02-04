@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 
-    <title>Rohit Sonwane </title>
+    <title>Rohit Sonwane-Portfolio </title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
@@ -25,14 +25,14 @@
               <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link "  href="#contact">Contact</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#project-1">Project 1</a>
-            </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#project-2">Project 2</a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -43,7 +43,7 @@
               <div class="col-md-6 p-2" id="profile">
                 <img src="./assets/img/profile.jpg" class="img-fluid mx-auto d-block profile-me"/>
                 <h1 class="display-4 text-center">Rohit Sonwane</h1>
-                <h1 class="display-6 text-center">Student</h1>
+                <h4 class=" text-center">Student|Web Developer</h4>
 
                 <div class="d-flex justify-content-evenly" id="contact">
                     <a href="https://www.linkedin.com/in/rohitsonwane/" target="_blank" class="icon-logo-container">
@@ -65,23 +65,23 @@
               </div>
 
               <div class="col-md-6 p-3">
-                <p class="about-me">Hello My name is Rohit Sonwane Currently I am pursuing B.tech from G.H.Raisoni College of Engineering Nagpur.</p>
-                <h1 class="display-4" id="skills">Skills</h1>
+                <p class="about-me">Hola I am Rohit Sonwane.I am Web Developer. Currently I am pursuing B.tech from G.H.Raisoni College of Engineering Nagpur.</p>
+                <h1 class="display-4 text-center" id="skills">Skills</h1>
                 <p>
-                    <h3 class="display-6 text-center">Languages</h3>
+                    <h3 class="display-6 ">Languages</h3>
                     <button type="button" class="btn btn-outline-primary btn-sm">C++</button>
                     <button type="button" class="btn btn-outline-secondary btn-sm">C language</button>
                     <button type="button" class="btn btn-outline-success btn-sm">Python</button>
                     <button type="button" class="btn btn-outline-danger btn-sm">Javascript</button>
                 </p>
                 <p>
-                    <h3 class="display-6 text-center">Frontend</h3>
+                    <h3 class="display-6 mt-2">Frontend</h3>
                     <button type="button" class="btn btn-outline-primary btn-sm">HTML</button>
                     <button type="button" class="btn btn-outline-secondary btn-sm">CSS</button>
                     <button type="button" class="btn btn-outline-success btn-sm">React</button>
                     <button type="button" class="btn btn-outline-danger btn-sm">Bootstrap</button>
                 </p>
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center mt-3">
                   <a class="btn btn-primary btn-lg" href="https://drive.google.com/file/d/1J3HnLfvs8R6YQ5bb91iKEAUzs1AE4Al2/view?usp=sharing" role="button" target="_blank">
                     <i class="far fa-file-pdf"></i> Show Resume
                   </a>
@@ -89,20 +89,21 @@
               </div>
           </div>
 
-          <div class="m-3">
-            <h1 class="text-center display-3">Projects</h1>
+          <div class="m-3" id="projects">
+            <h1 class="text-center display-3"><i class="fas fa-laptop-code me-2 display-4"></i>Projects</h1>
             <div class="row p-3 mt-3 project-container" id="project-1">
               <div class="col-md-4">
                 <img src="./assets/img/project-1.jpg" alt="project1" class="img-fluid project-img">
               </div>
               <div class="col-md-8">
                 <h3>TODO App</h3>
-                <p>Allow user to create,read and update to-do</p>
-                <span class="badge bg-success">ReactJs</span>
-                <span class="badge bg-danger">HTML</span>
-                <span class="badge bg-warning text-dark">CSS</span>
+                <span class="badge bg-success me-2">ReactJs</span>
+                <span class="badge bg-danger me-2">HTML</span>
+                <span class="badge bg-warning text-dark me-2">CSS</span>
+                <p><i class="far fa-calendar-alt me-1"></i>January 2022</p>
+                <p class="mt-2">In this Project I have worked with ReactJs in which user can create,read,update,delete to-do</p>
                 <div class="mt-4">
-                  <a class="btn btn-warning btn-md" href="https://rohitsonwane652.github.io/" role="button" target="_blank">Live Demo</a>
+                  <a class="btn btn-warning btn-md me-2" href="https://rohitsonwane652.github.io/" role="button" target="_blank">Live Demo</a>
                   <a class="btn btn-success btn-md" href="https://github.com/rohitsonwane652/react-todo-app" role="button" target="_blank">Repository</a>
                 </div>
               </div>
@@ -114,17 +115,54 @@
               </div>
               <div class="col-md-8">
                 <h3>Cryptocurrency API </h3>
-                <p>Using API showing Cryptocurrency live price</p>
-                <span class="badge bg-success">ReactJs</span>
-                <span class="badge bg-danger">HTML</span>
-                <span class="badge bg-warning text-dark">CSS</span>
+                <span class="badge bg-success me-2">ReactJs</span>
+                <span class="badge bg-danger me-2">HTML</span>
+                <span class="badge bg-warning text-dark me-2">CSS</span>
+                <p><i class="far fa-calendar-alt me-1"></i>January 2022</p>
+                <p class="mt-2">In this project I have fetch API data from it and display the adata on my website like logo,live price,market value and loss/gain in percentages</p>
                 <div class="mt-4">
-                  <a class="btn btn-warning btn-md" href="https://crypto-track-api.herokuapp.com/" role="button" target="_blank">Live Demo</a>
+                  <a class="btn btn-warning btn-md me-2" href="https://crypto-track-api.herokuapp.com/" role="button" target="_blank">Live Demo</a>
                   <a class="btn btn-success btn-md" href="https://github.com/rohitsonwane652/crypto-track-api" role="button" target="_blank">Repository</a>
                 </div>
               </div>
             </div>
+
+            <div class="row p-3 mt-3 project-container" id="project-3">
+              <div class="col-md-4">
+                <img src="./assets/img/project-1.jpg" alt="project3" class="img-fluid project-img">
+              </div>
+              <div class="col-md-8">
+                <h3>Score Keeper</h3>
+                <span class="badge bg-success me-2">HTML</span>
+                <span class="badge bg-danger me-2">JavaScript</span>
+                <span class="badge bg-warning text-dark me-2">CSS</span>
+                <p><i class="far fa-calendar-alt me-1"></i>February 2022</p>
+                <p class="mt-2">This project made using Javascript,HTML,CSS in which we show the scores of two different teams and increase scores after scoring points and declare the winner.</p>
+                <div class="mt-4">
+                  <a class="btn btn-warning btn-md me-2" href="" role="button" target="_blank">Live Demo</a>
+                  <a class="btn btn-success btn-md" href="https://github.com/rohitsonwane652/scorecard" role="button" target="_blank">Repository</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-center mt-3">
+              <button type="button" class="btn btn-primary" id="show-more-btn" onClick="showMore()">Show More<i class="fas fa-arrow-circle-down ms-1"></i></button>
+            </div>
+            <div class="d-flex justify-content-center mt-3">
+              <button type="button" class="btn btn-primary" id="show-less-btn" onClick="showLess()">Show Less<i class="fas fa-arrow-circle-up ms-1"></i></button>
+            </div>
           </div>
+      </div>
+
+      <div class="footer container-fluid bg-dark text-light">
+        <div class="row p-3">
+          <div class="col-4">
+            <h4>Contact Me</h4>
+
+          </div>
+          <div class="col-4"></div>
+          <div class="col-4"></div>
+        </div>
       </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
